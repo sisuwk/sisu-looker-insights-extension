@@ -12,7 +12,11 @@ application: sisu-insights {
     oauth2_urls: ["https://app.sisu.ai/oauth/authorize"]
   }
   mount_points: {
-    standalone :  yes
     dashboard_tile_popup: yes
   }
+}
+
+constant: CONNECTION_NAME {
+  value: ""
+  export: override_optional
 }
