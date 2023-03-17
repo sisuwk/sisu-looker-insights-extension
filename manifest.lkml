@@ -1,7 +1,7 @@
 project_name: "sisu-insights"
 application: sisu-insights {
   label: "Sisu Insights"
-  sri_hash: "sha384-SrEziuJtUhR/o5dL2/ISRqVuYCd5kvPmrGE1hpt2PZWSxOl2fbn2WrHLqEHr32gU"
+  sri_hash: "SrEziuJtUhR/o5dL2/ISRqVuYCd5kvPmrGE1hpt2PZWSxOl2fbn2WrHLqEHr32gU"
   file: "Looker.js"
   entitlements: {
     use_embeds: yes
