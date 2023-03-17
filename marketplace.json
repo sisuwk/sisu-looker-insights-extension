@@ -1,0 +1,21 @@
+{
+  "label": "Sisu Insights",
+  "category_label": "Applications",
+  "branding": {
+    "image_uri": "https://marketplace-api.looker.com/app-icons/icon_sisu.svg",
+    "tagline": "Fast, transformative, actionable ML powered insights for decision making",
+    "brand_color": "#061640"
+  },
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    }
+  },
+  "models": [
+    {
+      "name": "sisu-insights",
+      "connection_constant": "CONNECTION_NAME"
+    }
+  ]
+}
