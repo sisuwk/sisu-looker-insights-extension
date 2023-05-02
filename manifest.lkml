@@ -4,7 +4,7 @@
 project_name: "sisu-insights"
 application: sisu-insights {
   label: "Sisu Insights"
-  sri_hash: "dBGUhniWFPRm/ECThLZE67q40yGnCEdEpFC8uI637Gi2igJBgUeu6n7dgSVsHtVs"
+  sri_hash: "m2TNDAIPCfsW1KDxLJiJ+k9TaqMhNMXatFMqerz+WwclBFhVwO4jY9Z6wpu4of3c"
   file: "Looker.js"
   
   entitlements: {
@@ -26,4 +26,4 @@ constant: CONNECTION_NAME {
   export: override_optional
 }
 
-# rc-2023-04-27.f0d4721
+# rc-2023-05-02.f099a66
