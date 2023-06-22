@@ -6,7 +6,7 @@ from within the sisu-insights repo (the private repo, not the public one)
 >
 >kal% API_ENVIRONMENT=prod yarn build
 >
->kal% cp dist/Looker.js /path/to/public/repo/Looker.js
+>kal% cp dist/sisu-insights.js /path/to/public/repo/sisu-insights.js
 
 NOTE - you need to verify this step, since we've been bad about keeping our public/private repo in sync and there's always
 the risk that there's something old in the private repo that we don't want to deploy. So eyeball the file and confirm it
