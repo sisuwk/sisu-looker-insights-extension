@@ -4,7 +4,7 @@
 project_name: "sisu-insights"
 application: sisu-insights {
   label: "Sisu Insights"
-  sri_hash: "nVrSgHRF4aWmP+CSoqs5u11V10RsEF19tP93yFTJwPk7pI4Pg03dP5IQLfgCHAHh"
+  sri_hash: "z/B86Nvdqa6fURBRsk2zWnFdJko9suR7wn8JzFacpeG8xRAaHvDoNV7ubyKOm3YH"
   file: "sisu-insights.js"
   
   entitlements: {
@@ -19,6 +19,7 @@ application: sisu-insights {
   mount_points: {
     standalone: yes
     dashboard_tile_popup: yes
+    dashboard_vis: yes
   }
 }
 
@@ -27,5 +28,5 @@ constant: CONNECTION_NAME {
   export: override_optional
 }
 
-# rc-2023-07-28.510ee77
-# 1.1.38
+# rc-2023-08-01.8e14069
+# 1.1.39
