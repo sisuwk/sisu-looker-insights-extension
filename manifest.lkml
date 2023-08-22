@@ -4,7 +4,7 @@
 project_name: "sisu-insights"
 application: sisu-insights {
   label: "Sisu Insights"
-  sri_hash: "D8WNz/ivJoltM/DXlXHiCGJyp5lQFsq48UJKRWjudGeISQ+1NIbfUiiL8OKyH042"
+  sri_hash: "9iqp4cAfw2WCQAFzTLYEI0CMIQzIVspkHbx7L/+N09CFLYxdlBUhcNtMGJ3a1XR1"
   file: "sisu-insights.js"
   
   entitlements: {
@@ -15,6 +15,8 @@ application: sisu-insights {
     new_window : yes
     new_window_external_urls: [ "https://app.sisu.ai/*", "mailto:support@sisudata.com", "https://docs.sisudata.com/docs/*"]
     oauth2_urls: ["https://app.sisu.ai/oauth/authorize"]
+    use_clipboard: yes
+
   }
   mount_points: {
     standalone: yes
@@ -28,5 +30,5 @@ constant: CONNECTION_NAME {
   export: override_optional
 }
 
-# rc-2023-08-17.9554030
-# 1.1.43
+# rc-2023-08-22.39d6ada
+# 1.1.44
