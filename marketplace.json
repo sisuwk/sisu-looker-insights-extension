@@ -17,5 +17,12 @@
       "name": "sisu-insights",
       "connection_constant": "CONNECTION_NAME"
     }
-  ]
+  ],
+  "user_attributes": {
+    "activated" : {
+      "label": "Activated",
+      "type": "yesno",
+      "default_value": "no"
+    }
+  }
 }
